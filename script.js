@@ -1,6 +1,6 @@
 var floatMiles, floatGallons, floatMpg, strMessage;
-floatMiles= prompt('Enter Miles Driven');
-floatGallons= prompt('Enter Gallons Used');
+floatMiles= parseFloat(prompt('Enter Miles Driven'));
+floatGallons= parseFloat(prompt('Enter Gallons Used'));
 floatMpg= parseFloat(floatMiles/floatGallons).toFixed(3)
 /*
 if (floatMpg < 10) {strMessage= 'IN THIS ECONOMY?.'}
