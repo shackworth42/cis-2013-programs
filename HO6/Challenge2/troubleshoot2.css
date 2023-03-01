@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(171, 167, 167);
+}
+
+
+h1 {
+    text-align: center;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea {
+    flex-wrap: wrap;
+    background-color: rgb(196, 192, 192);
+    ;
+}
+output {
+    color: black;
+}
+img {
+    padding-left: 50px;
+    padding-top: -100px;
+}
