@@ -15,6 +15,9 @@ h1 {
 	text-align: center;
 }
 
+fieldset {
+    padding-top: 4px;
+}
 p {
 	color: blue;
 	font-weight: bold;
@@ -25,14 +28,16 @@ label {
     display: block;
     width: 20em;
     text-align: right;
-    padding-right: 1em;
+    padding-right: 3px;
     float: left;
+    padding-bottom: 10px;
+    padding-left: 4px;
 }
 
 input {
     display: block;
-    float: left;
-    width: 100px;
+    float:left;
+    width: 120px;
 }
 
 #futureValue {
@@ -41,4 +46,9 @@ input {
 
 br {
     clear: left;
+}
+
+input {
+    padding-left: 5px;
+    padding-right: 10px;
 }
