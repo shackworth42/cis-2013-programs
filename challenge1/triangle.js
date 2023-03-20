@@ -89,7 +89,7 @@ var do_it = function ()
             return;
         }
         //calcs
-        var rectarea = (floatRectWidth * floatRectHeight).toFixed(2);
+        /*var rectarea = (floatRectWidth * floatRectHeight).toFixed(2);
         var rectperim = (2 * floatRectWidth + 2 * floatRectHeight).toFixed(2);
 		    floatS = (floatTriSide2 + floatTriSide2 + floatTriSide3)/2;
 		var triarea =  (Math.sqrt((floatS*(floatS-floatTriSide1)*(floatS-floatTriSide2)*(floatS-floatTriSide3)))).toFixed(2);
@@ -99,7 +99,16 @@ var do_it = function ()
         //alert
             alert ("The Rectangle area is " + rectarea + "and the perimeter is " + rectperim + 
 		"\n\n" + "The Triangle area is " + 	triarea + " and the perimeter is " + 
-		triperim + "\n\n" + "The Circle area is " + circarea + " and the circumference is " + circcirc);
+		triperim + "\n\n" + "The Circle area is " + circarea + " and the circumference is " + circcirc);*/
+			
+	alert ("The Rectangle area is " + rectArea(floatRectWidth,floatRectHeight) + 
+              " and the perimeter is " + rectPerim (floatRectWidth,floatRectHeight) + 
+              "\n\n" + "The Triangle area is " +               triArea(floatTriSide1,floatTriSide2,floatTriSide3) + 
+              " and the perimeter is " + 
+              triPerim(floatTriSide1,floatTriSide2,floatTriSide3) + "\n\n" +
+              "The Circle area is " + circleArea(floatRadius) + 
+              " and the circumference is " + circleCircum(floatRadius));
+
 	
 	};
 
