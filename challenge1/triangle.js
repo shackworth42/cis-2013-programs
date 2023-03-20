@@ -102,12 +102,12 @@ var do_it = function ()
 		triperim + "\n\n" + "The Circle area is " + circarea + " and the circumference is " + circcirc);*/
 			
 	alert ("The Rectangle area is " + rectArea(floatRectWidth,floatRectHeight) + 
-              " and the perimeter is " + rectPerim (floatRectWidth,floatRectHeight) + 
+              ",  and the perimeter is " + rectPerim (floatRectWidth,floatRectHeight) + 
               "\n\n" + "The Triangle area is " +               triArea(floatTriSide1,floatTriSide2,floatTriSide3) + 
-              " and the perimeter is " + 
+              ", and the perimeter is " + 
               triPerim(floatTriSide1,floatTriSide2,floatTriSide3) + "\n\n" +
               "The Circle area is " + circleArea(floatRadius) + 
-              " and the circumference is " + circleCircum(floatRadius));
+              ", and the circumference is " + circleCircum(floatRadius));
 
 	
 	};
