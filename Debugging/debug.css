@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+}
+
+#content {
+    width: 600px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: yellow;
+    border: 1px solid #000000;
+    margin-top: 75px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 20em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+}
+
+input {
+    display: block;
+    float: left;
+    width: 75px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+img.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 50px;
+}
+
+br {
+    clear: left;
+}
+
+alert{
+    padding-top: 100px;
+}
