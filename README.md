@@ -1,1 +1,1 @@
-# Personal Reposity.
+# Personal Repository
