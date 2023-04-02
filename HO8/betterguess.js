@@ -16,7 +16,7 @@ var game = function() {
 
 
     var quit = function() {
-        window.location.href = "https://shackworth42/cis-2013-programs/HO8/stare.jpg";
+        window.location.href = "https://shackworth42.github.io/cis-2013-programs/HO8/stare.jpg";
     }
     var $ = function(id) { return document.getElementById(id); };
     var intMin = parseInt($("min").value);
@@ -36,9 +36,9 @@ if (intMin > intMax) {
 //small verification steps
 
 
-if (intMin == intSentinel) {
+if (intMin == intSentinel) {//sentinel if, duh
     quit();
-}//sentinel if, duh
+}
 //my spacing and grouping here is atrocious i wish a professional could see whatever mess this is
   
     intRandom = parseInt(Math.floor(Math.random() * (intMax - intMin + 1)) + intMin);//pray the random number generator works
@@ -140,9 +140,12 @@ if (intMin == intSentinel) {
    
    
    
-   
-   
+
         alert("Congratulations!!! You guessed the correct number (" + intRandom + ").\n" +
         "You got a score of " + intScore + " in " + intGuesses + " attempts.\n" +
         "Play again to improve your score or enter " + intSentinel + " into the minimum range to quit.");
+
+        $("min").value = '';//nulls out input boxes. not sure if i could do them earlier but here is safest
+        $("max").value = '';
+   
 }
