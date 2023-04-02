@@ -5,20 +5,17 @@ $("quit").onclick = quit;//quit function
 $("min").focus();//focus on min input box
 };
 
-var quit = function() {
-    window.location.href = "https://shackworth42.githib.io/cis-2013-programs/HO8/stare.jpg";
-    //redirect to a blank stare, because you shouldnt have to quit an HTML DOM game
-}
+
 
 var game = function() {
     
     
     var intRandom, intCount, intGuess, intGuesses, intScore, intMin, intMax, intSentinel = -1;//set sentinel value and dec all vars
 
-
-    var quit = function() {
-        window.location.href = "https://shackworth42.github.io/cis-2013-programs/HO8/stare.jpg";
-    }
+var quit = function() {
+    window.location.href = "https://shackworth42.githib.io/cis-2013-programs/HO8/stare.jpg";
+    //redirect to a blank stare, because you shouldnt have to quit an HTML DOM game
+}
     var $ = function(id) { return document.getElementById(id); };
     var intMin = (parseInt($("min").value)) + 1;//makes it so the max and min arent included
     var intMax = (parseInt($("max").value)) - 1;//re declare important vars bc im paranoid now after geometry functions
