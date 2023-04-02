@@ -96,9 +96,10 @@ if (intGuess < intMin || intGuess > intMax) {
     }
     intGuesses = intCount + 1;
     //core game loop
-   
-    
-    if ((intMax - intMin) < 20 ) {
+   if (intGuesses = 1) {
+       intScore = "1,000,000";
+   }
+   else if ((intMax - intMin) < 20 ) {
         intScore = (100 - (intGuesses * 5));
     } else if ((intMax - intMin) < 50) {
         intScore = (150 - (intGuesses * 7));
