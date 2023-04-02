@@ -53,10 +53,16 @@ if (intMin == intSentinel) {//sentinel if, duh
     }
     
     while (intGuess != intRandom) {
-        if (intGuess < intRandom) {
-            intGuess = prompt("Your guess is too low. Please try again: ");
-        } else {
-            intGuess = prompt("Your guess is too high. Please try again: ");
+        switch (true) {
+            case (intGuess < intRandom):
+                alert("Your guess is too low.");
+                break;
+            case (intGuess > intRandom):
+                alert("Your guess is too high.");
+                break;
+        case (intGuess > intMax || intGuess < intMin):
+            alert("You must enter a number between " + intMin + " and " + intMax);
+            break;
         }
         intCount++;
         intGuesses = intCount + 1;
