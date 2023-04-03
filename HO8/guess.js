@@ -15,9 +15,7 @@ var intMax = prompt("Please enter the maximum of your guessing range (must be at
         alert("You must enter a number greater than or equal to 2 more than the minimum");
     }
 //random number generator
-//intRandom = Math.floor(Math.random() * (intMax - intMin + 1)) + intMin;
-intRandom = parseInt (Math.floor(Math.random()*(intMax-intMin+1))+intMin);
-
+intRandom = parseInt(Math.floor(Math.random() * (intMax - intMin + 1)) + intMin);
 
 // set the loop counter
 intCount = 0;
