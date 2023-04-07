@@ -15,9 +15,7 @@ var generate = function ()
 	var i=0;  
 	var j=1;  
 	var k;    
-	var Array = []; //trying arrays because it seemed easier when you were explaining it
-	Array[0] = i; 
-	Array[1] = j;
+	var Array = [i,j,]; //trying arrays because it seemed easier when you were explaining it
 		for (var x=2; x<intCount; x++) { 
 			k = i + j; 
 			Array[x] = k; 
